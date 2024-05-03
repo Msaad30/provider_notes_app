@@ -40,6 +40,7 @@ class NotesProvider extends ChangeNotifier{
     }
   }
 
+  // this is my update provider
   updateNote(NoteModel noteModel) async {
     DbHelper().updateData(
         noteModel
